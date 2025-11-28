@@ -4,3 +4,7 @@ body{
     color: #FFF1E8;
     font-size: 20px;
 }
+
+img{
+    position: absolute;
+}

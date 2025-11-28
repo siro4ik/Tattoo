@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.nav__menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 26px;
+    width: 583px;
+}
+
+.nav__menu a{
+    color: #FFF1E8;
+}

@@ -27,23 +27,31 @@
     width: 680px;
     height: 680px;
     overflow: hidden;
-    border-radius: 12px; /* Скругленные углы */
+    border-radius: 12px; 
     position: relative;
-    margin: 0 auto; /* Центрирование */
-    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3); /* Тень для объема */
+    margin: 0 auto;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3); 
 }
 
-/* Стили для изображения внутри */
 .photoLady img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Обрезает без искажений */
-    object-position: bottom center; /* Центрирует изображение */
-    display: block; /* Убирает лишние отступы */
-    transition: transform 0.5s ease; /* Плавное увеличение при наведении */
+    object-fit: cover; 
+    object-position: bottom center; 
+    display: block; 
+    transition: transform 0.5s ease; 
 }
 
-/* Эффект при наведении */
-.photoLady:hover img {
-    transform: scale(1.03); /* Легкое увеличение */
+
+.photoLady:hover > img:first-child {
+    transform: scale(1.03); 
+}
+
+.photoLady__plant{
+    position: absolute;
+    width: 326px;
+    height: 159px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }

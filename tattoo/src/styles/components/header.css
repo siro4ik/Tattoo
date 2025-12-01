@@ -55,3 +55,8 @@
     left: 50%;
     transform: translate(-50%, 0%);
 }
+
+.plants_header_right{
+    right: 0;
+    bottom: -150px;
+}

@@ -8,3 +8,7 @@ body{
 img{
     position: absolute;
 }
+
+.backLine__plant{
+    z-index: -10;
+}

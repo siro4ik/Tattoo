@@ -47,15 +47,6 @@
     transform: scale(1.03); 
 }
 
-.photoLady__plant{
-    position: absolute;
-    width: 326px;
-    height: 159px;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 0%);
-}
-
 .plants_header_right{
     right: 0;
     bottom: -150px;

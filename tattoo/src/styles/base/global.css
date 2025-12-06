@@ -7,6 +7,8 @@ body{
     background-color: #A49E84;
     color: #FFF1E8;
     font-size: 20px;
+    overflow-x: hidden;
+    width: 100vw;
 }
 
 img{

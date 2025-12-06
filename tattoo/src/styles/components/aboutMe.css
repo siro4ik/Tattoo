@@ -20,9 +20,17 @@
 
 .aboutMe__description{
     background-color: rgba(217, 217, 217, 0.202);
-    height: 800px;
+    height: 700px;
     width: 1200px;
     margin-top: 80px;
+}
+
+.aboutMe__description > p{
+    font-size: 18px;
+    padding: 90px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 28px;
 }
 
 .aboutMe__mainContainer > h1{

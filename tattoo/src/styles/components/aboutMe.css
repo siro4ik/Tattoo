@@ -6,6 +6,7 @@
 
 .aboutMe > img{
     width: 100%;
+    z-index: -1;
 }
 
 .aboutMe__mainContainer{
@@ -17,9 +18,9 @@
 }
 
 .aboutMe__description{
-    background-color: #D9D9D9;
-    height: 594px;
-    width: 886px;
+    background-color: rgba(217, 217, 217, 0.202);
+    height: 800px;
+    width: 1000px;
     margin-top: 39px;
 }
 

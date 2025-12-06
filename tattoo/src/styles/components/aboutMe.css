@@ -1,7 +1,7 @@
 .aboutMe{
     position: relative;
     width: 100%;
-    height: 735px;
+    margin-bottom: 100px;
 }
 
 .aboutMe > img{
@@ -11,17 +11,18 @@
 
 .aboutMe__mainContainer{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
     flex-direction: column;
-    margin-top: 59px;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
 }
 
 .aboutMe__description{
     background-color: rgba(217, 217, 217, 0.202);
     height: 800px;
-    width: 1000px;
-    margin-top: 39px;
+    width: 1200px;
+    margin-top: 80px;
 }
 
 .aboutMe__mainContainer > h1{

@@ -1,3 +1,14 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.portfolio > h2{
+    margin-bottom: 30px;
+}
+
 .left__side__portfolio > img{
     width: 550px;
     height: auto;

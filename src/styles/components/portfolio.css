@@ -6,8 +6,12 @@
     margin: auto;
 }
 
+.portfolio__main__container{
+    display: flex;
+}
+
 .portfolio > h2{
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     font-weight: bold;
     font-size: 34px;
 }
@@ -20,11 +24,13 @@
 .left__side__portfolio{
     display: flex;
     flex-direction: column;
+    width: 700px;
 }
 
 .right__side__portfolio{
     display: flex;
     flex-direction: column;
+    width: 700px;
 }
 
 .left__portfolio__container{

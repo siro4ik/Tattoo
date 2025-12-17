@@ -35,6 +35,10 @@
     width: 700px;
 }
 
+.right__side__portfolio > .small__picture{
+    margin-left: -330px;
+}
+
 .left__portfolio__container{
     width: 500px;
     height: 500px;
@@ -42,7 +46,11 @@
     border-radius: 12px; 
     position: relative;
     box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3); 
-    margin-bottom: 200px;
+    margin-bottom: 130px;
+}
+
+.left__side__portfolio .left__portfolio__container:nth-child(5) {
+    margin-bottom: 550px;
 }
 
 .left__portfolio__container img{
@@ -70,9 +78,10 @@
     border-radius: 12px; 
     position: relative;
     box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3); 
-    margin-bottom: 200px;
+    margin-bottom: 130px;
 }
 
 .small__picture{
-    
+    width: 350px;
+    height: 350px;
 }

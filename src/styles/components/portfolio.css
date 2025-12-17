@@ -23,12 +23,14 @@
 
 .left__side__portfolio{
     display: flex;
+    align-items: center;
     flex-direction: column;
     width: 700px;
 }
 
 .right__side__portfolio{
     display: flex;
+    align-items: center;
     flex-direction: column;
     width: 700px;
 }
@@ -50,4 +52,27 @@
     object-position: center; 
     display: block; 
     transition: transform 0.5s ease; 
+}
+
+.right__portfolio__container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+    display: block; 
+    transition: transform 0.5s ease; 
+}
+
+.right__portfolio__container{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 12px; 
+    position: relative;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3); 
+    margin-bottom: 200px;
+}
+
+.small__picture{
+    
 }

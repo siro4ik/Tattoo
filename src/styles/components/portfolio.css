@@ -6,6 +6,10 @@
     margin: auto;
 }
 
+.portfolio__back__first{
+    position: absolute;
+}
+
 .portfolio__main__container{
     display: flex;
 }

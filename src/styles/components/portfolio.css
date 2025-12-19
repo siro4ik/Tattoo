@@ -8,6 +8,7 @@
 
 .portfolio__back__first{
     position: absolute;
+    z-index: -2;
 }
 
 .portfolio__main__container{

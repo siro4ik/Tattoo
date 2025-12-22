@@ -1,14 +1,23 @@
 .portfolio{
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 .portfolio__back__first{
     position: absolute;
     z-index: -2;
+    left:0;
+}
+
+.portfolio__back__second{
+    position: absolute;
+    z-index: -2;
+    right: 0;
+    top: 900px;
 }
 
 .portfolio__main__container{

@@ -20,6 +20,13 @@
     top: 900px;
 }
 
+.portfolio__back__third{
+    position: absolute;
+    z-index: -2;
+    left: 0;
+    bottom: 50px;
+}
+
 .portfolio__main__container{
     display: flex;
 }

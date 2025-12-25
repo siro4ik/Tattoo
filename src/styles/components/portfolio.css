@@ -31,6 +31,14 @@
     display: flex;
 }
 
+.portfolio__main__container img{
+    transition: transform 0.5s ease; 
+}
+
+.portfolio__main__container img:hover{
+    transform: scale(1.03); 
+}
+
 .portfolio > h2{
     margin-bottom: 80px;
     font-weight: bold;

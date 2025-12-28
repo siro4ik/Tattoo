@@ -4,10 +4,20 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 100px;
+    height: 800px;
 }
 
 .costSection > h2{
+    justify-content: flex-start;
     margin-bottom: 80px;
     font-weight: bold;
     font-size: 34px;
+}
+
+.leftSideCost{
+    height: 100%;
+}
+
+.rightSideCost{
+    height: 100%;
 }

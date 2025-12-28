@@ -1,0 +1,25 @@
+.consalting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.mainConsaltingContainer{
+    height: 470px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #BFB197;
+
+}
+
+.consalting > h2{
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 34px;
+}
+

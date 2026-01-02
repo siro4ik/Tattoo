@@ -11,3 +11,8 @@
     font-weight: bold;
     font-size: 34px;
 }
+
+.socialMedia{
+    display: flex;
+    gap: 100px;
+}

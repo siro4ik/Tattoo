@@ -16,3 +16,11 @@
     display: flex;
     gap: 100px;
 }
+
+.socialMedia > a > img{
+    transition: transform 0.5s ease; 
+}
+
+.socialMedia img:hover{
+    transform: scale(1.1); 
+}

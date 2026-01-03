@@ -16,15 +16,12 @@
     justify-content: space-around;
     align-items: center;
     height: 26px;
-    width: 583px;
+    width: 600px;
 }
 
 
 .nav__menu a{
     font-size: 24px;
-}
-
-.nav__menu a{
     color: #FFF1E8;
 }
 

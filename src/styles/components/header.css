@@ -23,6 +23,11 @@
 .nav__menu a{
     font-size: 24px;
     color: #FFF1E8;
+    transition: 0.15s ease-in-out;
+}
+
+.nav__menu a:hover{
+    color:#b2bd93;
 }
 
 .photoLady {
